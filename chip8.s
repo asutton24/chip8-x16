@@ -347,7 +347,6 @@ start:
 	clc
 	jsr $FF5F
 	jsr keyboardInit
-;Draws black background
 	lda #$B0
 	sta $9F21
 	lda #$11
